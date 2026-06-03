@@ -5,20 +5,12 @@ services:
     dockerfilePath: ./Dockerfile
     envVars:
       - key: DB_HOST
-        value: your_db_host
+        value: mysql-1c56752d-augustomorimaldonado-758e.l.aivencloud.com
+      - key: DB_PORT
+        value: "22472"
       - key: DB_NAME
-        value: municipalidad_ml
+        value: defaultdb
       - key: DB_USER
-        value: your_db_user
+        value: avnadmin
       - key: DB_PASS
-        value: your_db_password
-      - key: SMTP_HOST
-        value: your_smtp_host
-      - key: SMTP_PORT
-        value: "587"
-      - key: SMTP_USER
-        value: your_smtp_user
-      - key: SMTP_PASS
-        value: your_smtp_password
-      - key: SMTP_FROM
-        value: notificaciones@tudominio.com
+        sync: false
