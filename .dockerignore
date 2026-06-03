@@ -1,0 +1,7 @@
+vendor/
+muestras/
+dataset/
+node_modules/
+.git/
+*.md
+.gitignore
