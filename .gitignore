@@ -1,0 +1,10 @@
+vendor/
+backups/*.sql
+.DS_Store
+Thumbs.db
+*.log
+.env
+__pycache__/
+*.pyc
+uploads/*.pdf
+modelo_tramites.pkl
